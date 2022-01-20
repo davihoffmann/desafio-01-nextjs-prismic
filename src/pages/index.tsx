@@ -1,9 +1,8 @@
-import { ReactElement, useCallback, useState, useEffect } from 'react';
+import { ReactElement, useCallback, useState } from 'react';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
 import Prismic from '@prismicio/client';
-import { RichText } from 'prismic-dom';
 import { AiOutlineCalendar } from 'react-icons/ai';
 import { MdOutlinePerson } from 'react-icons/md';
 import { format } from 'date-fns';
